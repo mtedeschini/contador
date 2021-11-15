@@ -1,0 +1,79 @@
+body{
+    background-color: #ff9d00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;}   
+
+
+*{
+    font-family: 'Electrolize', sans-serif;
+    
+}
+
+.container, body {
+    height: 100vh;
+}
+
+h1{
+    font-size: 100px !important;
+    color: white;
+}
+
+h1 span{
+    font-size: 50px;
+}
+
+#numero{
+    background-color: white;
+    font-size: 50px;
+    border-radius: 3px;
+    width: 80px;
+    font-family: 'Big Shoulders Stencil Display', cursive;;
+    box-shadow: 4px 5px 8px 3px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 4px 5px 8px 3px rgba(0,0,0,0.45);
+    -moz-box-shadow: 4px 5px 8px 3px rgba(0,0,0,0.45);
+
+}
+
+.principal{
+    background-color:rgba(255, 255, 255, 0);
+    backdrop-filter: blur(30px);
+    border-radius: 100px;
+    
+
+
+}
+
+
+.button-1, .button-2, .button-3{
+  background-color: #ffffff27;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 20px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-weight: 800;
+}
+
+.button-1:hover, .button-2:hover, .button-3:hover{
+  box-shadow: rgba(214, 200, 200, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+    .button-1, .button-2, .button-3{
+    padding: 0 2.6rem;
+  }
+}
+
